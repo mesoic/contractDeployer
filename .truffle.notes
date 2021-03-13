@@ -1,0 +1,11 @@
+Connect to truffle console 
+	truffle console --network ropsten-infura
+
+Deploy contracts (sequentially):
+	truffle migrate --network ropsten-infura
+
+Deploy contracts (dry-run): 
+	truffle migrate --network ropsten-infura --dry-run
+
+Deploy contracts by migration prefix (e.g. 1_contract , 2_contract)
+	truffle migrate --network ropsten-infura --f 2 --to 2
